@@ -30,7 +30,7 @@ var OrderReadyTime = React.createClass({
         }
 
         var pickupTime;
-        if (this.props.pickupTime === 'true') {
+        if (this.props.pickupTime) {
             pickupTime = <div className="order-ready-time-container">
                 <h2>Head to the shop,
                 and your order will be ready in...</h2>

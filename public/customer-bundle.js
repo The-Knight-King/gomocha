@@ -62104,7 +62104,7 @@
 	        }
 
 	        var pickupTime;
-	        if (this.props.pickupTime === 'true') {
+	        if (this.props.pickupTime) {
 	            pickupTime = _react2.default.createElement(
 	                'div',
 	                { className: 'order-ready-time-container' },
